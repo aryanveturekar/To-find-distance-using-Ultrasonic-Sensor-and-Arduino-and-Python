@@ -10,7 +10,7 @@ wallL = box(pos=(-1,0,0), size=(0.2,12,12), color=color.cyan)
 text(text='US sensor', axis=(0,1,0) , pos=(-2,-6,0), depth=-0.3, color=color.cyan)
 
 t = 0
-
+ 
 while 1:
     rate(100)
     t = int (ArduinoSerial.readline()) # read the serial data and print it as line
