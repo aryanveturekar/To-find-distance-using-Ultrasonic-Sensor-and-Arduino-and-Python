@@ -13,7 +13,6 @@ t = 0
 
 while 1:
     rate(100)
-
     t = int (ArduinoSerial.readline()) # read the serial data and print it as line
     t= t* 0.05
     obj.pos.x = t
