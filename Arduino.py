@@ -17,5 +17,5 @@ while 1:
     t= t* 0.05
     obj.pos.x = t
     print(t)
-
+   
  
